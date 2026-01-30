@@ -43,6 +43,7 @@ body {
 /* 🖼️ HERO */
 .hero-imagen {
     width: 100%;
+    height: 100vh;
     aspect-ratio: 600 / 550;
     background: 
         url("img/fondo\ hd.jpeg")
@@ -109,4 +110,5 @@ body {
     width: 100%;
     display: block;
 }
+
 
