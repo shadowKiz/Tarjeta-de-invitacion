@@ -21,11 +21,9 @@ setInterval(() => {
 
 // 📍 MAPS (ejemplo)
 function irUbicacion() {
-    window.open(
-        "https://maps.app.goo.gl/QsnjudJhASBX1g1p8",
-        "_blank"
-    );
+    location.href = "https://maps.app.goo.gl/QsnjudJhASBX1g1p8";
 }
+
 
 // 📲 CONFIRMAR
 function confirmar() {
@@ -58,5 +56,6 @@ btnMusica.addEventListener("click", (e) => {
         btnMusica.innerHTML = "🔇";
     }
 });
+
 
 
