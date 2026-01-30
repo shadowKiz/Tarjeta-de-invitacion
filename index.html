@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Derek Jacob – 1 año 🎂</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- 🎵 Música -->
+<audio id="musica" loop>
+    <source src="audio/musica.mp3" type="audio/mpeg">
+</audio>
+<button id="btnMusica" class="btn-musica">🔊</button>
+
+<!-- 🖼️ HERO (imagen tipo invitación) -->
+<section class="hero hero-imagen"></section>
+
+<!-- 🎉 DATOS -->
+<section class="contenido">
+    <h1>🎉 Derek Jacob cumple 1 añito 🎉</h1>
+    <p>
+        Acompáñanos a celebrar este día tan especial 💙
+    </p>
+</section>
+
+<!-- 🎞️ GIF INTERMEDIO -->
+<section class="imagen">
+    <img src="img/foto1.gif" alt="Derek Jacob animado" class="gif">
+</section>
+
+
+<!-- 📅 FECHA Y CONTADOR -->
+<section class="contenido">
+    <h2>📅 Fecha y hora</h2>
+    <p>
+        <strong>11 de abril</strong><br>
+        ⏰ 4:00 PM
+    </p>
+
+    <div class="contador-box">
+        ⏳ Falta:
+        <div id="contador"></div>
+    </div>
+</section>
+
+<!-- 📸 OTRA IMAGEN -->
+<section class="imagen">
+    <img src="img/ultima foto_processed.jpg" alt="Cumpleaños">
+</section>
+
+<!-- 📍 UBICACIÓN -->
+<section class="contenido">
+    <h2>📍 Lugar</h2>
+    <p>
+        Salón de Eventos “Pequeños Sueños”<br>
+        Av. Principal #123, Ciudad Ejemplo
+    </p>
+
+    <button class="btn-maps" onclick="irUbicacion()">
+        Ver ubicación
+    </button>
+</section>
+
+<!-- 📲 CONFIRMAR -->
+<section class="contenido">
+    <h2>📲 Confirmar asistencia</h2>
+    <button class="btn-whatsapp" onclick="confirmar()">
+        Confirmar por WhatsApp
+    </button>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>

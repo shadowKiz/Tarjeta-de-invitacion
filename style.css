@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;800&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Baloo 2', cursive;
+    background: #f5f5f5;
+}
+
+.contenido h1 {
+    font-size: 56px;
+    font-weight: 800;
+    line-height: 1.2;
+    color: #b00000;
+}
+
+.contenido p {
+    font-size: 40px;
+    margin-top: 10px;
+    color: #b00000;
+}
+
+
+/* 🎵 Botón música */
+.btn-musica {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: none;
+    background: #ff4d6d;
+    color: white;
+    font-size: 22px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    z-index: 10;
+}
+
+/* 🖼️ HERO */
+.hero-imagen {
+    width: 100%;
+    aspect-ratio: 600 / 550;
+    background: 
+        url("img/fondo\ hd.jpeg")
+        center
+        / contain
+        no-repeat;
+    background-color: #b00000;
+}
+
+
+/* 📄 CONTENIDO */
+.contenido {
+    background: rgb(191, 210, 247);
+    padding: 30px 20px;
+    text-align: center;
+}
+
+.contenido h2 {
+    color: #ff4d6d;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+/* 📸 IMÁGENES */
+.imagen img {
+    width: 100%;
+    display: block;
+}
+
+/* ⏳ CONTADOR */
+.contador-box {
+    margin-top: 15px;
+    font-size: 44px;
+}
+
+#contador {
+    font-size: 44px;
+    color: #ff4d6d;
+    font-weight: bold;
+}
+
+/* 📍 BOTONES */
+.btn-maps,
+.btn-whatsapp {
+    margin-top: 15px;
+    padding: 15px 30px;
+    font-size: 18px;
+    border-radius: 30px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.btn-maps {
+    background: #25D366;
+}
+
+.btn-whatsapp {
+    background: #128C7E;
+}
+
+.imagen img,
+.imagen .gif {
+    width: 100%;
+    display: block;
+}
+
