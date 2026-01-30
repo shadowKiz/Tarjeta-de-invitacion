@@ -46,7 +46,7 @@ body {
     height: 100vh;
     aspect-ratio: 600 / 550;
     background: 
-        url("img/fondo\ hd.jpeg")
+        url("img/fondo-hd.jpeg")
         center
         / contain
         no-repeat;
@@ -110,5 +110,6 @@ body {
     width: 100%;
     display: block;
 }
+
 
 
