@@ -22,7 +22,7 @@ setInterval(() => {
 // 📍 MAPS (ejemplo)
 function irUbicacion() {
     window.open(
-        "https://www.google.com/maps?q=19.432608,-99.133209",
+        "https://https://www.google.com/maps/@19.3881779,-99.2777557,3a,75y,20.78h,72.62t/data=!3m5!1e1!3m3!1sCgjuswgot_EN0mQt5-CPww!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fpanoid%3DCgjuswgot_EN0mQt5-CPww%26w%3D900%26h%3D600%26ll%3D0.0,0.0%26yaw%3D20.0%26pitch%3D18.0%26thumbfov%3D98%26cb_client%3Dgmm.iv.android?utm_source=mstt_0&g_ep=CAESBjI2LjQuMRgAIIGBASqTASw5NDI2NzcyNyw5NDI3NTQwNyw5NDI5MjE5NSw5NDI5OTUzMiwxMDA3OTY0OTgsOTQyODQ0NzIsOTQyODA1NzYsOTQyMDczOTQsOTQyMDc1MDYsOTQyMDg1MDYsOTQyMTg2NTMsOTQyMjk4MzksOTQyNzUxNjgsOTQyNzk2MTksMTAwNzkxNDc5LDEwMDc5NjE5M0ICTVg%3D&skid=09d4bfbb-c75b-49d1-9d1c-9c590f25868a",
         "_blank"
     );
 }
@@ -30,7 +30,7 @@ function irUbicacion() {
 // 📲 CONFIRMAR
 function confirmar() {
     window.open(
-        "https://wa.me/5573671635?text=Hola,%20confirmo%20mi%20asistencia%20al%20cumple%20de%20Derek%20Jacob%20🎉",
+        "https://wa.me/5613820343?text=Hola,%20confirmo%20mi%20asistencia%20al%20cumple%20de%20Derek%20Jacob%20🎉",
         "_blank"
     );
 }
@@ -58,3 +58,4 @@ btnMusica.addEventListener("click", (e) => {
         btnMusica.innerHTML = "🔇";
     }
 });
+
