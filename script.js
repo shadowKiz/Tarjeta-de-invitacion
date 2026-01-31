@@ -21,9 +21,11 @@ setInterval(() => {
 
 // 📍 MAPS (ejemplo)
 function irUbicacion() {
-    location.href = "https://maps.app.goo.gl/QsnjudJhASBX1g1p8";
+    window.open(
+        "https://maps.app.goo.gl/5rmWNp11mvtegJqTA",
+        "_blank"
+    );
 }
-
 
 // 📲 CONFIRMAR
 function confirmar() {
